@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CineZone - Regional Movie Recommendations</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Navigation Bar -->
+  <header class="top-nav">
+    <div class="logo-section">
+      <img src="logo2.jpeg" alt="CineZone Logo" class="logo" />
+      <div>
+        <h1 class="site-title">CineZone</h1>
+        <p class="site-caption">From Classics to Hidden Gems — We've got you.</p>
+      </div>
+    </div>
+    <nav class="nav-links">
+      <div class="dropdown">
+        <button class="dropbtn">Languages</button>
+        <div class="dropdown-content">
+          <a href="#">Telugu</a>
+          <a href="#">Hindi</a>
+          <a href="#">Tamil</a>
+          <a href="#">Malayalam</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Genre</button>
+        <div class="dropdown-content">
+          <a href="#">Feel Good</a>
+          <a href="#">Horror</a>
+          <a href="#">Comedy</a>
+          <a href="#">Thriller</a>
+          <a href="#">Romance</a>
+          <a href="#">Sci-Fi</a>
+        </div>
+      </div>
+      <form class="search-form" action="#" method="get">
+        <input type="text" name="query" placeholder="Search movies..." class="search-input">
+        <button type="submit" class="search-button">🔍</button>
+      </form>
+    </nav>
+  </header>
+  <!-- Latest Movies Section -->
+  <section class="latest-section">
+    <h2>Latest Movies</h2>
+    <div class="movie-grid">
+      <div class="movie-card"
+        data-title="HIT-The Third Case"
+  data-cast="Nani, Srinidhi Shetty"
+  data-genre="Thriller"
+  data-synopsis="A gripping crime thriller."
+  data-directedby="Sailesh Kolanu"
+  data-writtenby="Sailesh Kolanu"
+  data-producedby="Prashanti Tipirneni, Nani"
+  data-musicby="Mickey J. Meyer"
+  data-runningtime="157 minutes"
+  data-country="India"
+  data-language="Telugu">
+        <img src="HIT3.jpg" alt="Movie Poster">
+        <h3>HIT-The Third Case</h3>
+      </div>
+      <div class="movie-card"
+        data-title="Saiyaara"
+        data-cast="Ahann Panday,Aneet Padda"
+        data-genre="Romance"
+        data-synopsis="A romantic drama."
+        data-directedby="Mohit Suri"
+  data-writtenby="Sankalp Sadanah"
+  data-producedby="Akshaye Widhani"
+  data-starring="Nani, Srinidhi Shetty"
+  data-musicby="John Stewart Eduri"
+  data-runningtime="156 minutes"
+  data-country="India"
+  data-language="Hindi">
+        <img src="Saiyaara.jpg" alt="Movie Poster">
+        <h3>Saiyaara</h3>
+      </div>
+      <div class="movie-card"
+        data-title="kingdom"
+        data-cast="Vijay Devarakonda,Satyadev,Bhagyashri Borse"
+        data-genre="Adventure"
+        data-synopsis="An epic adventure."
+        data-directedby="Gowtam Tinnanuri"
+  data-writtenby="Gowtam Tinnanuri"
+  data-producedby="Naga vamsi,Sai Sowjanya"
+  data-musicby="Anirudh Ravichandar"
+  data-runningtime="158 minutes"
+  data-country="India"
+  data-language="Telugu">
+        <img src="kingdom.jpg" alt="Movie Poster">
+        <h3>kingdom</h3>
+      </div>
+      <div class="movie-card"
+        data-title="3BHK Family"
+        data-cast="Siddarth,R.Sarathkumar,Devayani,Meetha Ragunath,Chaithra"
+        data-genre="Comedy"
+        data-synopsis="A family comedy."
+        data-directedby="Sri Ganesh"
+  data-writtenby="Sri Ganesh"
+  data-producedby="Arun Viswa"
+  data-musicby="Amrit Ramnath"
+  data-runningtime="141 minutes"
+  data-country="India"
+  data-language="Tamil">
+        <img src="3BHK_poster.jpg" alt="Movie Poster">
+        <h3>3BHK Family</h3>
+      </div>
+      <div class="movie-card"
+        data-title="Sitaare Zameen Par"
+        data-cast="Aamir Khan,Genelia D'Souza"
+        data-genre="Drama"
+        data-synopsis="An inspiring story."
+        data-directedby="R.S.Prasanna"
+  data-writtenby="Divya Nidhi Sharma"
+  data-producedby="Aamir Khan, Aparna Purohit"
+  data-musicby="Shankar-Ehsann-Loy"
+  data-runningtime="158 minutes"
+  data-country="India"
+  data-language="Hindi">
+        <img src="sitaare-zameen-par.jpg" alt="Movie Poster">
+        <h3>Sitaare Zameen Par</h3>
+      </div>
+      <div class="movie-card"
+        data-title="Metro In diNo"
+        data-cast="Anupam Kher, Sara Ali Khan, Ali Fazal, Aditya Roy Kapoor, Pankaj Tripathi,
+         Konkona Sen Sharma, Fatima Sana Shaikh, Neena Gupta"
+        data-genre="Drama, Romance"
+        data-synopsis="Urban drama."
+        data-directedby="Anurag Basu"
+  data-writtenby="Anurag Basu"
+  data-producedby="Bhushan Kumar"
+  data-musicby="Pritam Chakraborty"
+  data-runningtime="2h 42min"
+  data-country="India"
+  data-language="Hindi">
+        <img src="mtero_indino.jpeg" alt="Movie Poster">
+        <h3>Metro In diNo</h3>
+      </div>
+      <!-- Add more movie cards as needed -->
+       <!-- ...existing code above... -->
+<div class="movie-grid">
+  <!-- Existing 6 movie cards ... -->
+  <!-- Add 10 more movie cards below: -->
+  <div class="movie-card"
+    data-title="Jawan"
+    data-cast="Shah Rukh Khan, Nayanthara, Vijay Sethupathi"
+    data-genre="Action, Thriller"
+    data-synopsis="A man sets out to rectify the wrongs in society."
+    data-directedby="Atlee"
+    data-writtenby="Atlee"
+    data-producedby="Gauri Khan"
+    data-musicby="Anirudh Ravichander"
+    data-runningtime="169 minutes"
+    data-country="India"
+    data-language="Hindi">
+    <img src="jawan.jpg" alt="Movie Poster">
+    <h3>Jawan</h3>
+  </div>
+  <div class="movie-card"
+    data-title="Pushpa: The Rise"
+    data-cast="Allu Arjun, Rashmika Mandanna, Fahadh Faasil"
+    data-genre="Action, Drama"
+    data-synopsis="The rise of a red sanders smuggler."
+    data-directedby="Sukumar"
+    data-writtenby="Sukumar"
+    data-producedby="Naveen Yerneni, Y. Ravi Shankar"
+    data-musicby="Devi Sri Prasad"
+    data-runningtime="179 minutes"
+    data-country="India"
+    data-language="Telugu">
+    <img src="pushpa.jpg" alt="Movie Poster">
+    <h3>Pushpa: The Rise</h3>
+  </div>
+  <div class="movie-card"
+    data-title="Vikram"
+    data-cast="Kamal Haasan, Vijay Sethupathi, Fahadh Faasil"
+    data-genre="Action, Thriller"
+    data-synopsis="A special agent investigates a series of murders."
+    data-directedby="Lokesh Kanagaraj"
+    data-writtenby="Lokesh Kanagaraj"
+    data-producedby="Raaj Kamal Films International"
+    data-musicby="Anirudh Ravichander"
+    data-runningtime="174 minutes"
+    data-country="India"
+    data-language="Tamil">
+    <img src="vikram.jpg" alt="Movie Poster">
+    <h3>Vikram</h3>
+  </div>
+  <div class="movie-card"
+    data-title="Drishyam 2"
+    data-cast="Ajay Devgn, Tabu, Shriya Saran"
+    data-genre="Crime, Drama, Thriller"
+    data-synopsis="A man tries to protect his family from a murder investigation."
+    data-directedby="Abhishek Pathak"
+    data-writtenby="Jeethu Joseph"
+    data-producedby="Bhushan Kumar, Kumar Mangat Pathak"
+    data-musicby="Devi Sri Prasad"
+    data-runningtime="142 minutes"
+    data-country="India"
+    data-language="Hindi">
+    <img src="drishyam.jpg" alt="Movie Poster">
+    <h3>Drishyam 2</h3>
+  </div>
+  <div class="movie-card"
+    data-title="KGF: Chapter 2"
+    data-cast="Yash, Sanjay Dutt, Raveena Tandon"
+    data-genre="Action, Crime, Drama"
+    data-synopsis="Rocky continues his quest for power in the Kolar Gold Fields."
+    data-directedby="Prashanth Neel"
+    data-writtenby="Prashanth Neel"
+    data-producedby="Vijay Kiragandur"
+    data-musicby="Ravi Basrur"
+    data-runningtime="168 minutes"
+    data-country="India"
+    data-language="Kannada">
+    <img src="kgf2.jpg" alt="Movie Poster">
+    <h3>KGF: Chapter 2</h3>
+  </div>
+  <div class="movie-card"
+    data-title="RRR"
+    data-cast="N.T. Rama Rao Jr., Ram Charan, Alia Bhatt"
+    data-genre="Action, Drama"
+    data-synopsis="Two revolutionaries fight against British rule."
+    data-directedby="S. S. Rajamouli"
+    data-writtenby="S. S. Rajamouli"
+    data-producedby="D. V. V. Danayya"
+    data-musicby="M. M. Keeravani"
+    data-runningtime="182 minutes"
+    data-country="India"
+    data-language="Telugu">
+    <img src="rrr.jpg" alt="Movie Poster">
+    <h3>RRR</h3>
+  </div>
+  <div class="movie-card"
+  data-title="Premam"
+  data-cast="Nivin Pauly, Sai Pallavi, Madonna Sebastian"
+  data-genre="Romance, Feel Good"
+  data-synopsis="A young man's journey through love and heartbreak."
+  data-directedby="Alphonse Puthren"
+  data-writtenby="Alphonse Puthren"
+  data-producedby="Anwar Rasheed"
+  data-musicby="Rajesh Murugesan"
+  data-runningtime="156 minutes"
+  data-country="India"
+  data-language="Malayalam">
+  <img src="premam.jpg" alt="Movie Poster">
+  <h3>Premam</h3>
+</div>
+  <div class="movie-card"
+    data-title="Jailer"
+    data-cast="Rajinikanth, Mohanlal, Jackie Shroff"
+    data-genre="Action, Thriller"
+    data-synopsis="A retired jailer faces a new threat."
+    data-directedby="Nelson Dilipkumar"
+    data-writtenby="Nelson Dilipkumar"
+    data-producedby="Kalanithi Maran"
+    data-musicby="Anirudh Ravichander"
+    data-runningtime="168 minutes"
+    data-country="India"
+    data-language="Tamil">
+    <img src="jailer.jpg" alt="Movie Poster">
+    <h3>Jailer</h3>
+  </div>
+  <div class="movie-card"
+    data-title="Shershaah"
+    data-cast="Sidharth Malhotra, Kiara Advani"
+    data-genre="Action, Biography, Drama"
+    data-synopsis="The story of Captain Vikram Batra, a war hero."
+    data-directedby="Vishnuvardhan"
+    data-writtenby="Sandeep Shrivastava"
+    data-producedby="Karan Johar, Apoorva Mehta"
+    data-musicby="Tanishk Bagchi"
+    data-runningtime="135 minutes"
+    data-country="India"
+    data-language="Hindi">
+    <img src="shershaah.jpg" alt="Movie Poster">
+    <h3>Shershaah</h3>
+  </div>
+  <div class="movie-card"
+  data-title="Yeh Jawaani Hai Deewani"
+  data-cast="Ranbir Kapoor, Deepika Padukone, Aditya Roy Kapur, Kalki Koechlin"
+  data-genre="Romance, Drama"
+  data-synopsis="Four friends discover love and friendship on a life-changing trip."
+  data-directedby="Ayan Mukerji"
+  data-writtenby="Ayan Mukerji"
+  data-producedby="Karan Johar"
+  data-musicby="Pritam"
+  data-runningtime="160 minutes"
+  data-country="India"
+  data-language="Hindi">
+  <img src="yjhd.jpg" alt="Movie Poster">
+  <h3>Yeh Jawaani Hai Deewani</h3>
+</div>
+<div class="movie-card"
+  data-title="Geetha Govindam"
+  data-cast="Vijay Deverakonda, Rashmika Mandanna"
+  data-genre="Romance, Comedy"
+  data-synopsis="A young lecturer falls in love with a woman who misunderstands him."
+  data-directedby="Parasuram"
+  data-writtenby="Parasuram"
+  data-producedby="Bunny Vas"
+  data-musicby="Gopi Sundar"
+  data-runningtime="142 minutes"
+  data-country="India"
+  data-language="Telugu">
+  <img src="geethagovindham.jpg" alt="Movie Poster">
+  <h3>Geetha Govindam</h3>
+</div>
+  <div class="movie-card"
+  data-title="Chennai Express"
+  data-cast="Shah Rukh Khan, Deepika Padukone"
+  data-genre="Comedy, Action, Romance"
+  data-synopsis="A man's journey to fulfill his grandfather's last wish turns into an adventure."
+  data-directedby="Rohit Shetty"
+  data-writtenby="K. Subash"
+  data-producedby="Gauri Khan, Ronnie Screwvala, Siddharth Roy Kapur"
+  data-musicby="Vishal-Shekhar"
+  data-runningtime="141 minutes"
+  data-country="India"
+  data-language="Hindi">
+  <img src="chennai.jpg" alt="Movie Poster">
+  <h3>Chennai Express</h3>
+</div>
+</div>
+<!-- ...existing code below... -->
+    </div>
+  </section>
+  <script src="script.js"></script>
+
+</body>
+</html>
